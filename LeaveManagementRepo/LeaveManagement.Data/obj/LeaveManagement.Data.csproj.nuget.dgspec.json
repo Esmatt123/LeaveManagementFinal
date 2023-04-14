@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Data\\LeaveManagement.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Common\\LeaveManagement.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Common\\LeaveManagement.Common.csproj",
+        "projectName": "LeaveManagement.Common",
+        "projectPath": "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Common\\LeaveManagement.Common.csproj",
+        "packagesPath": "C:\\Users\\esmat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Data\\LeaveManagement.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Data\\LeaveManagement.Data.csproj",
+        "projectName": "LeaveManagement.Data",
+        "projectPath": "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Data\\LeaveManagement.Data.csproj",
+        "packagesPath": "C:\\Users\\esmat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esmat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Common\\LeaveManagement.Common.csproj": {
+                "projectPath": "C:\\Users\\esmat\\source\\repos\\Esmatt123\\LeaveManagementRepo\\LeaveManagement.Common\\LeaveManagement.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
